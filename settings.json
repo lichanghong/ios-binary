@@ -1,0 +1,29 @@
+{
+  "root_dir": "/usr/local/binarycomponent/a/b/c/d",
+  "package_root_dir": "/Volumes/FastSSD/binarycomponent",
+  "version": "1.0.0",
+  "repo_name": "static_module_spec",
+  "upload_host": "http://存放zip文件的地址",
+  "down_host": "http://下载zip文件的地址",
+  "code_source_url": "https://gitlab.源码源地址.git",
+  "binary_source_url": "https://gitlab.二进制源地址.git",
+  "binary_source_url_t": "https://gitlab测试环境二进制源地址，暂时没用上.git",
+  "white_list": [
+    "AlipaySDK",
+    "BKJFWalletSDK",
+    "Hyphenate",
+    "ios_BaiduSpeech",
+    "PLPlayerKit",
+    "RSVRSDK",
+    "SwiftMonkey",
+    "TalkingData",
+    "TXIMSDK_iOS",
+    "TXLiteAVSDK_Professional",
+    "WSPX",
+    "ZRLLingSDK",
+    "ZRMP3lame-for-ios",
+    "ZRRouterDefine",
+    "---------- 以下是需要跳过执行的组件-------",
+    "DoraemonKit"
+  ]
+}
